@@ -16,3 +16,10 @@
 
 - It comes with a UI, which might sound like a good thing. But soon, you realize it’s difficult to “code” your testing scenarios through a point-and-click interface.
 - It is thread-bound. This means for every user you want to simulate; you need a separate thread. Benchmarking thousands of users on a single machine just isn’t feasible.
+
+### Quick Setup
+
+```
+pip3 install locust
+locust -V
+```
