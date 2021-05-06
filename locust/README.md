@@ -29,7 +29,7 @@ Some of the key benefits I could think of:
 
 In general, being Scriptable makes the tool 'infinitely expandable and very developer-friendly' -- that's what locust is. Let's see what else locust brings to the table. 
 
-### Why I Choose Locust?
+### What I like in Locust?
 Locust is an open-source load testing tool. It is a lightweight tool for load-testing web sites and checking the number of concurrent users any system can handle.
 
 - Test as Code: Locust lets you code tests in Python against your web application which can mimic your user's behaviour. Locust itself written in Python.
@@ -40,9 +40,14 @@ Locust is an open-source load testing tool. It is a lightweight tool for load-te
 This tool does not seem to be a new kid in the block; Locust has a wide and fast-growing community. It is already being used by Google, Microsoft, ThoughtWorks, AWS, Intel AI,...I haven't personally checked with them to see what extend they use—however, these names are acknowldged on the locust official site's "used by" section.
 
 ### What's With the Name LOCUST?
-I really like the anology this name brings to the tool.
+I really like the anology this name brings to the tool. 
 
-During a locust test, a swarm of locusts will attack the target, i.e. website. The behaviour of each Locust is configurable, and the swarming process is monitored from a web UI in real-time.
+_From Locust official doc_
+> Locust takes its name from the grasshopper species, known for their swarming behaviour. [More History...](https://docs.locust.io/en/stable/history.html#history)
+
+So, During a locust test, a swarm of locusts will attack the target, i.e. website. The behaviour of each Locust is configurable, and the swarming process can be monitored from a web UI in real-time.
+
+![locust](https://user-images.githubusercontent.com/82016952/117327904-bb03d600-aeb0-11eb-93b4-cb5d2638accf.jpg)
 
 #### What About Jmeter?
 It won't be fair not to talk about Jmeter while writing blog about performance testing. JMeter is one of the most well-known and proven performenace testing tool used by developers and I am not trying deny that nor going to tell which one is better. However, let me walk you through some key aspects that I would like consider while making a decision based on the usecase at the hand.
