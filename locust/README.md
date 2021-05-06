@@ -17,11 +17,13 @@ It's worth sharping our performance testing skill to be ready when needed.
 #### My Bias Towards Scriptability
 As a coder, I am more interested in using the tool that allows me to code my load testing scenarios rather than using a point-and-click interface. Once it is coded, it is reusable and can be integrated as part of automated testing, and many more gates will be opened.
 
-  - No need for clunky UIs or bloated XML: Once I was trying to manage the Jmeter test plan in XML, I wouldn't say it was pretty. 
-  - User Behaviour with code: I would say it is as close as one could achieve to mimic the behaviour.  
+Some of the key benefits I could think of:
   - Version Control: Version your load tests as regular code
+  - User Behaviour with code: I would say it is as close as one could achieve to mimic the behaviour
+  - Very Flexible: We could create custom load patterns and control via configuration
+  - Chaos Engeneering: It can act as tool in introducing chaos
   - Automation: Easy to use for CI/CD testing
-  - Very Flexible: We could create custom load patterns and control via configuration. .
+  - No need for clunky UIs or bloated XML: Once I was trying to manage the Jmeter test plan in XML, I wouldn't say it was pretty. 
 
 In general, being Scriptable makes the tool infinitely expandable and very developer-friendly.
 
