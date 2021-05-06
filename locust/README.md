@@ -25,7 +25,7 @@ Some of the key benefits I could think of:
   - Automation: Easy to use for CI/CD testing
   - No need for clunky UIs or bloated XML: Once I was trying to manage the Jmeter test plan in XML, I wouldn't say it was pretty. 
 
-In general, being Scriptable makes the tool infinitely expandable and very developer-friendly.
+In general, being Scriptable makes the tool 'infinitely expandable and very developer-friendly' -- that's what locust is. Let's see what else locust brings to the table. 
 
 ### Why Locust?
 Locust is an open-source load testing tool. It is a lightweight tool for load-testing web sites and checking the number of concurrent users any system can handle.
