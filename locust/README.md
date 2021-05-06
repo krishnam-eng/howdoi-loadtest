@@ -1,4 +1,4 @@
-# Scriptable Performance Testing & Others
+# Scriptable Performance Testing
 There are numerous tools available for performance testing - Jmeter, Apache Benchmark (ab), Curl,... This blog is about one of the tool I started using it (not Jmeter) and found it very useful compare to other tools I tried out in past. And, I can see it can be helpful for many of us. I'll cover the following topics in brief. 
 
 If you think this is the right tool for your job, please checkout the reference section to get hands dirty (I have made few commonly used patterns & config as reference recipes [checkout myrepo](https://github.com/krishnam-eng/load-testing)).
