@@ -58,7 +58,7 @@ This tool is not a new kid on the block; Locust has a wide and fast-growing comm
 ![locust-image](https://user-images.githubusercontent.com/82016952/117380163-c1b53c00-aef6-11eb-91d1-4edf51cee369.png) I really like the analogy this name brings to the mind.
 
 _From Locust official doc_
-> Locust takes its name from the grasshopper species, known for their swarming behaviour. [More History...](https://docs.locust.io/en/stable/history.html#history)
+> Locust takes its name from the grasshopper species, known for their swarming behaviour.
 
 If you’re familiar with the term “load generators”, Locust uses the term “swarm” instead. During a locust test, a swarm of locusts will attack (put a load on) the target, i.e. website. The behaviour of each Locust is configurable, and the swarming process can be observed from a web UI in real-time or you can sitback and read the generated report at the end of the day.
 
