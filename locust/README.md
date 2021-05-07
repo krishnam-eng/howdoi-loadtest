@@ -83,7 +83,7 @@ _Locust resources consumption considered to be significantly less compared to JM
 - Locust: It keeps it simple and provides almost all the information that can be useful. Locust runs a simple web server during a script run where you can find all the available monitoring results.
 
 ### Learning Curve
-I learned to experiment with what all that Locust provides in a day, or I could say in one sitting. The only pre-requisite is to have essential Python coding skill to feel comfortable. If you haven't get your feet wet in Python yet, consider this also one reason to start Python coding.
+I was able experiment with what all that Locust provides in a day or (you could do maybe in one sitting). The only pre-requisite is to have essential Python coding skill to feel comfortable. If you haven't get your feet wet in Python yet, consider this also one of the reasons to start Python coding.
 
 ## To Sum Up
 Locust was created to address some [specific pain points](https://docs.locust.io/en/stable/history.html) of current existing popular performance testing solutions like JMeter & Tsung. And, it is doing a great job. Using this framework and some Python experience, we can write performance scripts pretty fast, store them within our project repo.
