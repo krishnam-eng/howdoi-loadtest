@@ -54,7 +54,7 @@ Some of the cool features of Locust:
 This tool is not a new kid on the block; Locust has a wide and fast-growing community. It is already being used by Google, Microsoft, ThoughtWorks, AWS, Intel AI,...I haven't personally checked with them to see what extend they use—however, these names are acknowledged on the locust official site's "used by" section.
 
 ### What’s With the Name?
-![locust-image](https://user-images.githubusercontent.com/82016952/117380163-c1b53c00-aef6-11eb-91d1-4edf51cee369.png) I really like the anology this name brings to the tool.
+![locust-image](https://user-images.githubusercontent.com/82016952/117380163-c1b53c00-aef6-11eb-91d1-4edf51cee369.png) I really like the analogy this name brings to the mind.
 
 _From Locust official doc_
 > Locust takes its name from the grasshopper species, known for their swarming behaviour. [More History...](https://docs.locust.io/en/stable/history.html#history)
@@ -82,15 +82,13 @@ In both cases, they allow you to use them freely without any limitations regardi
 - JMeter: Built-in functions and third-party plugins are available to create performance tests for everything - HTTP, FTP, SOAP, JDBC,...
 - Locust: It was built mainly for HTTP web-based testing. However, As I mentioned, you extend it to test anything with a custom script.
 
-**Concurrent Users**
-- JMeter: It has a thread-based model, which allocates a separate thread for each user. Threads allocation and benchmarking each of these steps takes a noticeable amount of resources, and that's why JMeter is very limited regarding the number of users you can simulate on one machine.
-- Locust: User simulation model is based on events and async approach, with [gevent](http://www.gevent.org/) coroutine. This implementation allows the Locust framework to simulate thousands of concurrent users on a single machine easily.
-
-_Locust resources consumption considered to be significantly less compared to JMeter._
-
 **Monitoring**
 - JMeter: It has a lot of inbuilt listeners. Each listener provides a specific type of Monitoring. Worth noting that Listeners consume a lot of resources. 
 - Locust: It keeps it simple and provides almost all the information that can be useful. Locust runs a simple web server during a script run where you can find all the available monitoring results.
+
+**Concurrent Users**
+- JMeter: It has a thread-based model, which allocates a separate thread for each user. Threads allocation and benchmarking each of these steps takes a noticeable amount of resources, and that's why JMeter is very limited regarding the number of users you can simulate on one machine.
+- Locust: User simulation model is based on events and async approach, with [gevent](http://www.gevent.org/) coroutine. This implementation allows the Locust framework to simulate thousands of concurrent users on a single machine easily.
 
 ### Learning Curve
 I was able experiment with what all that Locust provides in a day or (you could do maybe in one sitting). The only pre-requisite is to have essential Python coding skill to feel comfortable. If you haven't get your feet wet in Python yet, consider this also one of the reasons to start Python coding.
