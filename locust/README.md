@@ -3,9 +3,19 @@
 # Scriptable Performance Testing
 There are numerous open-source tools available for performance testing. This blog is about one of the tool I started using it and found it very helpful compare to other tools I tried out in the past. And, I can see it can be beneficial for many of us. I'll cover the following topics in brief and will let you decide for yourself.
 
+- [Scriptable Performance Testing](#scriptable-performance-testing)
+  - [Why Should We Care?](#why-should-we-care)
+  - [My Bias Towards Scriptability](#my-bias-towards-scriptability)
+  - [What Else Do I Like in Locust?](#what-else-do-i-like-in-locust)
+    - [What’s With the Name?](#whats-with-the-name)
+    - [What About JMeter?](#what-about-jmeter)
+    - [Learning Curve](#learning-curve)
+  - [To Sum Up](#to-sum-up)
+    - [What's Next](#whats-next)
+    - [Top Three Take-Aways](#top-three-take-aways)
+
 If you think this is the right tool for your job, please check out what-next section to get your hands dirty.
 
-TOC
 
 ## Why Should We Care?
 We all came across many reasons for doing performance testing now and then. 
