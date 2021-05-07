@@ -56,36 +56,44 @@ Yes, You are right! It won't be fair not to talk about JMeter while writing a bl
 
 
 **Age**
-- JMeter: Its first version released almost 20 years ago and still alive; As per Lindy Effect, it will continute to exist for longer. So, if you haven't learnt to use JMeter, it should go to your learning-list.
-- Locust: It is relatively fresh framework and widely known for the past 10 years
+- JMeter: Its first version released almost 20 years ago.
+- Locust: It is a relatively fresh framework and widely known for the past ten years
 
-**License**
+** License**
 - JMeter: Apache License 2.0
 - Locust: MIT License 
-In both cases, they allow you to use them freely without any limitations regarding usage. The key difference between these two license comes to picture in the Patent use. ([License comparision quick reference](https://choosealicense.com/appendix/))
+In both cases, they allow you to use them freely without any limitations regarding usage. The key difference between these two licenses comes to the picture in the Patent use. ([License comparison quick reference](https://choosealicense.com/appendix/))
 
-**Test Creation**
-- JMeter: The most common way to write a JMeter performance test is by using its GUI mode. Though it start supports writing code in Java, it is not a popular option across the JMeter community
-- Locust: It is all about coding in Python
+**Test Creation & Maintentance**
+- JMeter: The most common way to write a JMeter performance test is by using its GUI mode. It weakly supports writing code in Java.
+- Locust: It is all about coding in Python. IT is easy to use with VCS compare to JMeter.
 
 **Supported Protocols**
-- JMeter: Built-in functions and third-party plugins are available to create performance tests for everything - 
-- Locust: It was built mainly for HTTP web based testing. However, As I mentioned, you extend it to test anything with custom script.
+- JMeter: Built-in functions and third-party plugins are available to create performance tests for everything - HTTP, FTP, SOAP, JDBC,...
+- Locust: It was built mainly for HTTP web-based testing. However, As I mentioned, you extend it to test anything with a custom script.
 
 **Concurrent Users**
-JMeter and Locust have absolutely different ways of dealing with machine resources. JMeter has a thread-based model, which allocates a separate thread for each user. Threads allocation and benchmarking each of these steps takes a noticeable amount of resources, and that’s why JMeter is very limited regarding an amount of users you can simulate on one machine. 
+- JMeter: It has a thread-based model, which allocates a separate thread for each user. Threads allocation and benchmarking each of these steps takes a noticeable amount of resources, and that's why JMeter is very limited regarding the number of users you can simulate on one machine.
+- Locust: User simulation model is based on events and async approach, with [gevent](http://www.gevent.org/) coroutine. This implementation allows the Locust framework to simulate thousands of concurrent users on a single machine easily.
 
+_Locust resources consumption considered to be significantly less compared to JMeter._
 
-### Quick Setup
+** Monitoring**
+- JMeter: It has a lot of inbuilt listeners. Each listener provides a specific type of Monitoring. Worth noting that Listeners consume a lot of resources. 
+- Locust: It keeps it simple and provides almost all the information that can be useful. Locust runs a simple web server during a script run where you can find all the available monitoring results.
 
-```
-locust -V
-pip3 install locust
-```
+#### Learning Curve
+I learned to experiment with what all that Locust provides in a day, or I could say in one sitting. The only pre-requisite is to have essential Python coding skill to feel comfortable. If you haven't get your feet wet in Python yet, consider this also one reason to start Python coding.
 
 ### To Sum Up
-#### Learning Curve
-I was able learned to experiment with what all that Locust provides in a day or I could say in one sitting. The only pre-requisite is to have at least some basic Python coding skill to feel comfortable. If you haven't get your feet wet in Python yet, consider this also a one of resons to start Python coding.
+Locust was created to address some [specific pain points](https://docs.locust.io/en/stable/history.html) of current existing popular performance testing solutions like JMeter & Tsung. And, it is doing a great job. Using this framework and some Python experience, we can write performance scripts pretty fast, store them within our project repo.
 
-#### Take Away 
+#### What Next
+- Learn: https://docs.locust.io/en/stable/quickstart.html 
+- Reference: You could check out common patterns & recipes for reference from [my repo](https://github.com/krishnam-eng/performance-testing)
+- Example Usage in Arc Project [AQUA Locust files] 
 
+#### Top 3 Take-Aways 
+- Prefer scriptable performance testing when there is a need to repeat the test
+- Manage your performance testing in VCS
+- Treat the coding of performance testing as part of the development cycle
