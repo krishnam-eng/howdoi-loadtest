@@ -59,7 +59,7 @@ Yes, You are right! It won't be fair not to talk about JMeter while writing a bl
 - JMeter: Its first version released almost 20 years ago.
 - Locust: It is a relatively fresh framework and widely known for the past ten years
 
-** License**
+**License**
 - JMeter: Apache License 2.0
 - Locust: MIT License 
 In both cases, they allow you to use them freely without any limitations regarding usage. The key difference between these two licenses comes to the picture in the Patent use. ([License comparison quick reference](https://choosealicense.com/appendix/))
@@ -78,7 +78,7 @@ In both cases, they allow you to use them freely without any limitations regardi
 
 _Locust resources consumption considered to be significantly less compared to JMeter._
 
-** Monitoring**
+**Monitoring**
 - JMeter: It has a lot of inbuilt listeners. Each listener provides a specific type of Monitoring. Worth noting that Listeners consume a lot of resources. 
 - Locust: It keeps it simple and provides almost all the information that can be useful. Locust runs a simple web server during a script run where you can find all the available monitoring results.
 
