@@ -52,27 +52,29 @@ _From Locust official doc_
 If you’re familiar with the term “load generators”, Locust uses the term “swarm” instead. During a locust test, a swarm of locusts will attack (put a load on) the target, i.e. website. The behaviour of each Locust is configurable, and the swarming process can be observed from a web UI in real-time or you can sitback and read the generated report at the end of the day.
 
 ### What About JMeter?
-Yes, You are right ! It won't be fair not to talk about JMeter while writing a blog about performance testing. JMeter is one of the most well-known and proven performenace testing tool used by developers and I am not trying deny that nor going to tell which one is better. However, let me walk you through some key aspects that I would like you to consider while making a decision based on you'r usecase at the hand.
+Yes, You are right! It won't be fair not to talk about JMeter while writing a blog about performance testing. JMeter is one of the most well-known and proven performance testing tools used by developers, and I am not trying to deny that or tell which one is better. However, let me walk you through some key aspects that I would like you to consider while making a decision based on your use case at hand.
 
-One of the trick I use when I try to invest my time on learning something new (be it a selecting book or some tech), is Lindy Effect.
-
-> For the perishable, every additional day in its life translates into a shorter additional life expectancy. For the nonperishable, every additional day may imply a longer life expectancy. So the longer a technology lives, the longer it can be expected to live.
-
-It is just a fancy way of saying what’s been around will continue to be around. Ok, Let's start with age. 
 
 **Age**
 - JMeter: Its first version released almost 20 years ago and still alive; As per Lindy Effect, it will continute to exist for longer. So, if you haven't learnt to use JMeter, it should go to your learning-list.
 - Locust: It is relatively fresh framework and widely known for the past 10 years
 
-|======|=======|======|
-|Age|| |
-|License|Apache License 2.0|MIT license|
-|Test Creation| The most common way to write a JMeter performance test is by using its GUI mode | Locust is all about coding|
+**License**
+- JMeter: Apache License 2.0
+- Locust: MIT License 
+In both cases, they allow you to use them freely without any limitations regarding usage. The key difference between these two license comes to picture in the Patent use. ([License comparision quick reference](https://choosealicense.com/appendix/))
 
-But if you need to, you can use a code, both in its GUI and in non-GUI mode, with Java. However, this way is not popular across the JMeter community
+**Test Creation**
+- JMeter: The most common way to write a JMeter performance test is by using its GUI mode. Though it start supports writing code in Java, it is not a popular option across the JMeter community
+- Locust: It is all about coding in Python
 
-- It comes with a UI, which might sound like a good thing. But soon, you realize it's difficult to "code" your testing scenarios through.
-- It is thread-bound. This means for every user you want to simulate; you need a separate thread. Benchmarking thousands of users on a single machine isn't feasible.
+**Supported Protocols**
+- JMeter: Built-in functions and third-party plugins are available to create performance tests for everything - 
+- Locust: It was built mainly for HTTP web based testing. However, As I mentioned, you extend it to test anything with custom script.
+
+**Concurrent Users**
+JMeter and Locust have absolutely different ways of dealing with machine resources. JMeter has a thread-based model, which allocates a separate thread for each user. Threads allocation and benchmarking each of these steps takes a noticeable amount of resources, and that’s why JMeter is very limited regarding an amount of users you can simulate on one machine. 
+
 
 ### Quick Setup
 
@@ -83,7 +85,7 @@ pip3 install locust
 
 ### To Sum Up
 #### Learning Curve
-I was able learned to experiment with what all that Locust provides in a day or I could say in one sitting. The only pre-requisite is being comformatable with 'basic Python coding skill'. If you haven't get your feet wet in Python yet, consider this also a one of resons to start Python coding. 
+I was able learned to experiment with what all that Locust provides in a day or I could say in one sitting. The only pre-requisite is to have at least some basic Python coding skill to feel comfortable. If you haven't get your feet wet in Python yet, consider this also a one of resons to start Python coding.
 
 #### Take Away 
 
