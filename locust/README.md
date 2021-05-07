@@ -1,7 +1,7 @@
 ![locust](https://user-images.githubusercontent.com/82016952/117327904-bb03d600-aeb0-11eb-93b4-cb5d2638accf.jpg)
 
 # Scriptable Performance Testing
-There are numerous open-source tools available for performance testing. This blog is about one of the tool I started using it and found it very helpful compare to other tools I tried out in the past. And, I can see it can be beneficial for many of us. I'll cover the following topics in brief and will let you decide for yourself.
+There are numerous open-source tools available for performance testing. This blog is about one of the tool I started using it and found it as useful. And, I can see its potential and how it can be beneficial for most of us. I'll cover the following topics in brief and will let you decide for yourself.
 
 - [Scriptable Performance Testing](#scriptable-performance-testing)
   - [Why Should We Care?](#why-should-we-care)
