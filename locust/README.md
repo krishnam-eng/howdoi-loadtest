@@ -49,7 +49,7 @@ This tool is not a new kid on the block; Locust has a wide and fast-growing comm
 _From Locust official doc_
 > Locust takes its name from the grasshopper species, known for their swarming behaviour. [More History...](https://docs.locust.io/en/stable/history.html#history)
 
-If you’re familiar with the term “load generators”, Locust uses the term “swarm” instead. During a locust test, a swarm of locusts will attack (put a load) the target, i.e. website. The behaviour of each Locust is configurable, and the swarming process can be monitored from a web UI in real-time.
+If you’re familiar with the term “load generators”, Locust uses the term “swarm” instead. During a locust test, a swarm of locusts will attack (put a load on) the target, i.e. website. The behaviour of each Locust is configurable, and the swarming process can be observed from a web UI in real-time or you can sitback and read the generated report at the end of the day.
 
 ### What About JMeter?
 Yes, You are right ! It won't be fair not to talk about JMeter while writing a blog about performance testing. JMeter is one of the most well-known and proven performenace testing tool used by developers and I am not trying deny that nor going to tell which one is better. However, let me walk you through some key aspects that I would like you to consider while making a decision based on you'r usecase at the hand.
