@@ -7,6 +7,7 @@ There are numerous open-source tools available for performance testing. This blo
   - [Why Should We Care?](#why-should-we-care)
   - [My Bias Towards Scriptability](#my-bias-towards-scriptability)
   - [What Else Do I Like in Locust?](#what-else-do-i-like-in-locust)
+    - [Cool Features](#cool-features)
     - [What’s With the Name?](#whats-with-the-name)
     - [What About JMeter?](#what-about-jmeter)
     - [Learning Curve](#learning-curve)
