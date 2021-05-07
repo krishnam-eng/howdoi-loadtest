@@ -105,12 +105,9 @@ options to consider, especially for its simplicity and scriptability nature.
 Locust was created to address some [specific pain points](https://docs.locust.io/en/stable/history.html) of current existing popular performance testing solutions like JMeter & Tsung. And, it seems to be doing a great job. Using Locust and some Python coding skill, we can write performance scripts pretty quick, manage them within our project repo. 
 
 ### What's Next
-- Try: [Quick Start](https://docs.locust.io/en/stable/quickstart.html)
-- References & How-To: 
-  - [Official Doc](https://docs.locust.io/en/stable/index.html): Anything you need to learn about locust
-  - [My Repo](https://github.com/krishnam-eng/performance-testing): It has common patterns & recipes that I tried out (working code)
-  - 
-
+- Try [Quick Start](https://docs.locust.io/en/stable/quickstart.html)
+- How-To: Check [My Repo](https://github.com/krishnam-eng/performance-testing) where I created performance test scripts for common testing patterns (working code). This can help you jump-start on coding performance testing.
+- Reference: Look [Official Doc](https://docs.locust.io/en/stable/index.html) for anything you need to learn about locust
 
 ### Top Three Take-Aways 
 ```
