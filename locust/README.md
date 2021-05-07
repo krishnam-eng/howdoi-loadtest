@@ -45,7 +45,7 @@ In general, being Scriptable makes the tool infinitely expandable and very devel
 ## What Else Do I Like in Locust?
 Locust is a simple-to-use and easy-to-learn performance testing tool. 
 
-Some of the cool features of Locust: 
+### Cool Features 
 - Test as Code: Locust lets you code tests in Python against your web application which can mimic your user's behaviour. Locust itself [written in Python](https://github.com/locustio/locust).
 - Highly Scalable: It is due to its fully event-based implementation. It makes it easy to run load tests distributed over multiple machines. (better than JMeter)
 - Web-based UI: It shows the progress of your test in real-time. We can run it headless also; this might be very handy if you run your script on a remote server from CLI.
