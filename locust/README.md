@@ -27,7 +27,7 @@ Some of the key benefits that I could think of:
   - User Behaviour with code: I would say it is as close as one could achieve to mimic the behaviour
   - Very Flexible: We could create custom load patterns and control via configuration
   - Chaos Engineering: It can act as a tool in introducing chaos
-  - Automation: Easy to use for CI/CD testing
+  - Automation: it can be integrated part of test automation or part of CI/CD
   - No need for clunky UIs or bloated XML: Once I was trying to manage the Jmeter test plan in XML, I wouldn't say it was pretty. 
 
 In general, being Scriptable makes the tool infinitely expandable and very developer-friendly -- that's what locust is. Let's see what else Locust brings to the table.
