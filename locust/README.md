@@ -16,16 +16,17 @@ There are numerous open-source tools available for performance testing. This blo
     - [Top Three Take-Aways](#top-three-take-aways)
 
 ## Why Should We Care?
-First, We all came across many reasons for doing performance testing now and then. 
+First, we all came across many reasons for doing performance testing now and then. 
 
 To name a few:
-- To determine if our application meets the performance requirements
-- To discover bottlenecks and other performance issues within an application
+- To verify how changes affect application performance 
+- To discover weak points of the existing application
+- To reproduce performance or multithreading issue
 - To verify if the performance levels claimed by the other service are true
 - To compare two or more systems and identify the most suited
 - To measure stability under peak transactions events
 
-Second, reliability engineering should be considered as part of the development cycle. 
+In addtion, given current focus in the reliability-engineering, performance-engineering process should be considered as part of the development cycle. 
 
 So, It's worth sharping our performance testing skill.
 
@@ -62,7 +63,7 @@ _From Locust official doc_
 If you’re familiar with the term “load generators”, Locust uses the term “swarm” instead. During a locust test, a swarm of locusts will attack (put a load on) the target, i.e. website. The behaviour of each Locust is configurable, and the swarming process can be observed from a web UI in real-time or you can sitback and read the generated report at the end of the day.
 
 ### What About JMeter?
-Yes, You are right! It won't be fair not to talk about JMeter while writing a blog about performance testing. JMeter is one of the most well-known and proven performance testing tools used by developers, and I am not trying to deny that or tell which one is better. However, let me walk you through some key aspects that I would like you to consider while making a decision based on your use case at hand.
+Yes, You are right! It won't be fair not to talk about JMeter while writing a blog about performance testing. JMeter is one of the most popular and proven performance testing tool, and I am not trying to deny that or tell which one is better. However, let me walk you through some key aspects that I would like you to consider while making a decision based on your use case at hand.
 
 <details>
  <summary> Click here to see the details...</summary>
@@ -91,19 +92,25 @@ In both cases, they allow you to use them freely without any limitations regardi
 **Concurrent Users**
 - JMeter: It has a thread-based model, which allocates a separate thread for each user. Threads allocation and benchmarking each of these steps takes a noticeable amount of resources, and that's why JMeter is very limited regarding the number of users you can simulate on one machine.
 - Locust: User simulation model is based on events and async approach, with [gevent](http://www.gevent.org/) coroutine. This implementation allows the Locust framework to simulate thousands of concurrent users on a single machine easily.
+
 </details>
 
 ### Learning Curve
-You could do quick-start and basic testing in one sitting. I was able to experiment with what all that Locust provides in a day or two. It is worth the time investment considering its potential. The only pre-requisite is to have essential Python coding skill to feel comfortable (If you haven't get your feet wet in Python yet, consider this also one of the reasons to start Python coding).
+With Locust, You can quickly run your first load test in one sitting. I was able to experiment with what all that Locust provides in a day or two. It is worth the time investment considering its potential. The only pre-requisite is to have essential Python coding skill to feel comfortable (If you haven't get your feet wet in Python yet, consider this also one of the reasons to start Python coding).
 
 ## To Sum Up
-Locust was created to address some [specific pain points](https://docs.locust.io/en/stable/history.html) of current existing popular performance testing solutions like JMeter & Tsung. And, it is doing a great job. Using this framework and some Python experience, we can write performance scripts pretty fast, store them within our project repo.
+JMeter is not a trivial product; it has a lot of functionality. However, Locust definitely earns it a high place in the list of
+options to consider, especially for its simplicity and scriptability nature.   
+
+Locust was created to address some [specific pain points](https://docs.locust.io/en/stable/history.html) of current existing popular performance testing solutions like JMeter & Tsung. And, it seems to be doing a great job. Using Locust and some Python coding skill, we can write performance scripts pretty quick, manage them within our project repo. 
 
 ### What's Next
 - Try: [Quick Start](https://docs.locust.io/en/stable/quickstart.html)
-- References: 
+- References & How-To: 
   - [Official Doc](https://docs.locust.io/en/stable/index.html): Anything you need to learn about locust
   - [My Repo](https://github.com/krishnam-eng/performance-testing): It has common patterns & recipes that I tried out (working code)
+  - 
+
 
 ### Top Three Take-Aways 
 ```
