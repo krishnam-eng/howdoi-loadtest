@@ -1,3 +1,13 @@
+########
+# locust output
+########
+*.log
+*.html
+
+###############
+# Std Python Project Git Ignore List
+###############
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
