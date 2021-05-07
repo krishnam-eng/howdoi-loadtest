@@ -89,9 +89,11 @@ I was able experiment with what all that Locust provides in a day or (you could 
 Locust was created to address some [specific pain points](https://docs.locust.io/en/stable/history.html) of current existing popular performance testing solutions like JMeter & Tsung. And, it is doing a great job. Using this framework and some Python experience, we can write performance scripts pretty fast, store them within our project repo.
 
 ### What's Next
-- Learn: https://docs.locust.io/en/stable/quickstart.html 
-- Reference: You could check out common patterns & recipes for reference from [my repo](https://github.com/krishnam-eng/performance-testing)
-- Example Usage in Arc Project [AQUA Locust files] 
+- Try: https://docs.locust.io/en/stable/quickstart.html 
+- References: 
+  - Official Doc: https://docs.locust.io/en/stable/index.html
+  - My Repo: It has common patterns & recipes that I tried out (working code)
+  - Example Usage: 
 
 ### Top Three Take-Aways 
 - Prefer scriptable performance testing when there is a need to repeat the test
