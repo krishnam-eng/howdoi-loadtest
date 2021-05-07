@@ -43,7 +43,7 @@ Some of the key benefits that I could think of:
 In general, being Scriptable makes the tool infinitely expandable and very developer-friendly -- that's what locust is. Let's see what else Locust brings to the table.
 
 ## What Else Do I Like in Locust?
-Locust is a simple-to-use and easy-to-learn performance testing tool. 
+Locust is an easy-to-learn and a simple-to-use performance testing tool. 
 
 ### Cool Features 
 - Test as Code: Locust lets you code tests in Python against your web application which can mimic your user's behaviour. Locust itself [written in Python](https://github.com/locustio/locust).
@@ -91,7 +91,7 @@ In both cases, they allow you to use them freely without any limitations regardi
 - Locust: User simulation model is based on events and async approach, with [gevent](http://www.gevent.org/) coroutine. This implementation allows the Locust framework to simulate thousands of concurrent users on a single machine easily.
 
 ### Learning Curve
-I was able experiment with what all that Locust provides in a day or (you could do maybe in one sitting). The only pre-requisite is to have essential Python coding skill to feel comfortable. If you haven't get your feet wet in Python yet, consider this also one of the reasons to start Python coding.
+You could do quick-start and basic testing in one sitting. I was able to experiment with what all that Locust provides in a day or two. It is worth the time investment considering its potential. The only pre-requisite is to have essential Python coding skill to feel comfortable (If you haven't get your feet wet in Python yet, consider this also one of the reasons to start Python coding).
 
 ## To Sum Up
 Locust was created to address some [specific pain points](https://docs.locust.io/en/stable/history.html) of current existing popular performance testing solutions like JMeter & Tsung. And, it is doing a great job. Using this framework and some Python experience, we can write performance scripts pretty fast, store them within our project repo.
