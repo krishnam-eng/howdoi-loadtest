@@ -3,7 +3,7 @@
 # Scriptable Performance Testing
 There are numerous open-source tools available for performance testing. This blog is about one of the tool I started using it and found it very helpful compare to other tools I tried out in the past. And, I can see it can be beneficial for many of us. I'll cover the following topics in brief and will let you decide for yourself.
 
-If you think this is the right tool for your job, please check out the reference section to get your hands dirty.
+If you think this is the right tool for your job, please check out what-next section to get your hands dirty.
 
 TOC
 
@@ -82,18 +82,18 @@ _Locust resources consumption considered to be significantly less compared to JM
 - JMeter: It has a lot of inbuilt listeners. Each listener provides a specific type of Monitoring. Worth noting that Listeners consume a lot of resources. 
 - Locust: It keeps it simple and provides almost all the information that can be useful. Locust runs a simple web server during a script run where you can find all the available monitoring results.
 
-#### Learning Curve
+### Learning Curve
 I learned to experiment with what all that Locust provides in a day, or I could say in one sitting. The only pre-requisite is to have essential Python coding skill to feel comfortable. If you haven't get your feet wet in Python yet, consider this also one reason to start Python coding.
 
-### To Sum Up
+## To Sum Up
 Locust was created to address some [specific pain points](https://docs.locust.io/en/stable/history.html) of current existing popular performance testing solutions like JMeter & Tsung. And, it is doing a great job. Using this framework and some Python experience, we can write performance scripts pretty fast, store them within our project repo.
 
-#### What Next
+### What's Next
 - Learn: https://docs.locust.io/en/stable/quickstart.html 
 - Reference: You could check out common patterns & recipes for reference from [my repo](https://github.com/krishnam-eng/performance-testing)
 - Example Usage in Arc Project [AQUA Locust files] 
 
-#### Top 3 Take-Aways 
+### Top Three Take-Aways 
 - Prefer scriptable performance testing when there is a need to repeat the test
 - Manage your performance testing in VCS
 - Treat the coding of performance testing as part of the development cycle
