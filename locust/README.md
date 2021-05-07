@@ -1,3 +1,5 @@
+![locust](https://user-images.githubusercontent.com/82016952/117327904-bb03d600-aeb0-11eb-93b4-cb5d2638accf.jpg)
+
 # Scriptable Performance Testing
 There are numerous open-source tools available for performance testing. This blog is about one of the tool I started using it and found it very helpful compare to other tools I tried out in the past. And, I can see it can be beneficial for many of us. I'll cover the following topics in brief and will let you decide for yourself.
 
@@ -5,7 +7,7 @@ If you think this is the right tool for your job, please check out the reference
 
 TOC
 
-### Why Should We Care?
+## Why Should We Care?
 We all came across many reasons for doing performance testing now and then. 
 
 To name a few:
@@ -17,7 +19,7 @@ To name a few:
 
 In addition, reliability engineering should be considered as part of the development cycle. So, It's worth sharping our performance testing skill.
 
-### My Bias Towards Scriptability
+## My Bias Towards Scriptability
 As a coder, I am more biased in coding my load testing scenarios than using a point-and-click interface. Once it is coded, it is reusable; then, many more opportunities are opened for us.
 
 Some of the key benefits that I could think of:
@@ -30,7 +32,7 @@ Some of the key benefits that I could think of:
 
 In general, being Scriptable makes the tool infinitely expandable and very developer-friendly -- that's what locust is. Let's see what else Locust brings to the table.
 
-### What do I like in Locust?
+## What Else Do I Like in Locust?
 Locust is a simple-to-use and easy-to-learn performance testing tool. 
 
 Some of the cool features of Locust: 
@@ -41,20 +43,16 @@ Some of the cool features of Locust:
 
 This tool is not a new kid on the block; Locust has a wide and fast-growing community. It is already being used by Google, Microsoft, ThoughtWorks, AWS, Intel AI,...I haven't personally checked with them to see what extend they use—however, these names are acknowledged on the locust official site's "used by" section.
 
-### What's with the Name?
-I really like the anology this name brings to the tool. 
+### What’s With the Name?
+I really like the anology this name brings to the tool. ![locust-image](https://user-images.githubusercontent.com/82016952/117380163-c1b53c00-aef6-11eb-91d1-4edf51cee369.png)
 
 _From Locust official doc_
 > Locust takes its name from the grasshopper species, known for their swarming behaviour. [More History...](https://docs.locust.io/en/stable/history.html#history)
 
-![image](https://user-images.githubusercontent.com/82016952/117380163-c1b53c00-aef6-11eb-91d1-4edf51cee369.png)
-
 If you’re familiar with the term “load generators”, Locust uses the term “swarm” instead. During a locust test, a swarm of locusts will attack (put a load) the target, i.e. website. The behaviour of each Locust is configurable, and the swarming process can be monitored from a web UI in real-time.
 
-![locust](https://user-images.githubusercontent.com/82016952/117327904-bb03d600-aeb0-11eb-93b4-cb5d2638accf.jpg)
-
-### What about Jmeter?
-Yes, You are right ! It won't be fair not to talk about Jmeter while writing a blog about performance testing. JMeter is one of the most well-known and proven performenace testing tool used by developers and I am not trying deny that nor going to tell which one is better. However, let me walk you through some key aspects that I would like you to consider while making a decision based on you'r usecase at the hand.
+### What About JMeter?
+Yes, You are right ! It won't be fair not to talk about JMeter while writing a blog about performance testing. JMeter is one of the most well-known and proven performenace testing tool used by developers and I am not trying deny that nor going to tell which one is better. However, let me walk you through some key aspects that I would like you to consider while making a decision based on you'r usecase at the hand.
 
 One of the trick I use when I try to invest my time on learning something new (be it a selecting book or some tech), is Lindy Effect.
 
