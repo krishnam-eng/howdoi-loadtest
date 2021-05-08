@@ -1,4 +1,4 @@
-# load-testing
+# Performance Testing
 
 ## Locust
 
