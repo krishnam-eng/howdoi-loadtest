@@ -8,8 +8,8 @@ There are numerous open-source tools available for performance testing. This blo
   - [My Bias Towards Scriptability](#my-bias-towards-scriptability)
   - [What Else Do I Like in Locust?](#what-else-do-i-like-in-locust)
     - [Cool Features](#cool-features)
-    - [What’s With the Name?](#whats-with-the-name)
-    - [What About JMeter?](#what-about-jmeter)
+    - [Why the Name](#whats-with-the-name)
+    - [What About JMeter](#what-about-jmeter)
     - [Learning Curve](#learning-curve)
   - [To Sum Up](#to-sum-up)
     - [What's Next](#whats-next)
@@ -54,7 +54,7 @@ Locust is an easy-to-learn and a simple-to-use performance testing tool.
 
 This tool is not a new kid on the block; Locust has a wide and fast-growing community. It is already being used by Google, Microsoft, ThoughtWorks, AWS, Intel AI,...I haven't personally checked with them to see what extend they use—however, these names are acknowledged on the locust official site's "used by" section.
 
-### What’s With the Name?
+### Why the Name?
 ![locust-image](https://user-images.githubusercontent.com/82016952/117380163-c1b53c00-aef6-11eb-91d1-4edf51cee369.png) I really like the analogy this name brings to the mind.
 
 _From Locust official doc_
