@@ -2,7 +2,7 @@
 # locust output
 ########
 *.log
-*.html
+# *.html - let's keep it for demo
 
 ###############
 # Std Python Project Git Ignore List

@@ -13,5 +13,4 @@ class QuickStartUser(HttpUser):
     # ! only methods decorated with @task will be picked
     @task
     def hello_world(self):
-        self.client.get("hello")
-        self.client.get("world")
+        self.client.get("helloworld")
